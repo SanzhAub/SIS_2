@@ -1,1 +1,9 @@
-.idea/
+# Create .gitignore if it doesn't exist
+New-Item -Path .gitignore -ItemType File -Force
+
+# Add these lines to .gitignore
+logs/
+venv/
+__pycache__/
+*.pyc
+*.log
